@@ -47,6 +47,15 @@ fun Pagehome(navController: NavController) {
                     elevation = 8.dp,
                 ) {
                     Column {
+                        Image(
+                            painter = painterResource(R.drawable.asjia),
+                            contentDescription = "Description",
+                            contentScale = ContentScale.Crop,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(130.dp),
+
+                            )
                         Column(modifier = Modifier.padding(16.dp)) {
                             Text(
                                 "08:18 · 20 ต.ค. · BangkokBizNews",
@@ -71,7 +80,15 @@ fun Pagehome(navController: NavController) {
                     shape = RoundedCornerShape(8.dp),
                     elevation = 8.dp,
                 ) {
-                    Column {
+                    Column {  Image(
+                        painter = painterResource(R.drawable.ktc),
+                        contentDescription = "Description",
+                        contentScale = ContentScale.Crop,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(130.dp),
+
+                        )
                         Column(modifier = Modifier.padding(16.dp)) {
                             Text(
                                 "08:18 · 20 ต.ค. · BangkokBizNews",
@@ -97,6 +114,15 @@ fun Pagehome(navController: NavController) {
                     elevation = 8.dp,
                 ) {
                     Column {
+                        Image(
+                            painter = painterResource(R.drawable.kvxs),
+                            contentDescription = "Description",
+                            contentScale = ContentScale.Crop,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(130.dp),
+
+                            )
                         Column(modifier = Modifier.padding(16.dp)) {
                             Text(
                                 "08:18 · 20 ต.ค. · BangkokBizNews",
@@ -122,6 +148,15 @@ fun Pagehome(navController: NavController) {
                     elevation = 8.dp,
                 ) {
                     Column {
+                        Image(
+                            painter = painterResource(R.drawable.tes1),
+                            contentDescription = "Description",
+                            contentScale = ContentScale.Crop,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(130.dp),
+
+                            )
                         Column(modifier = Modifier.padding(16.dp)) {
                             Text(
                                 "08:18 · 20 ต.ค. · BangkokBizNews",
@@ -147,6 +182,15 @@ fun Pagehome(navController: NavController) {
                     elevation = 8.dp,
                 ) {
                     Column {
+                        Image(
+                            painter = painterResource(R.drawable.anva),
+                            contentDescription = "Description",
+                            contentScale = ContentScale.Crop,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(130.dp),
+
+                            )
                         Column(modifier = Modifier.padding(16.dp)) {
                             Text(
                                 "08:18 · 20 ต.ค. · BangkokBizNews",
